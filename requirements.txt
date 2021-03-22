@@ -13,12 +13,6 @@ django-heroku==0.3.1
 django-markdownx==3.0.1
 django-storages==1.11.1
 djangorestframework==3.12.2
-google-api-core==1.26.1
-google-auth==1.28.0
-google-cloud-secret-manager==2.3.0
-googleapis-common-protos==1.53.0
-grpc-google-iam-v1==0.12.3
-grpcio==1.36.1
 gunicorn==20.0.4
 idna==2.10
 jmespath==0.10.0
