@@ -24,7 +24,9 @@
     <div class="col m12 l6">
       <h1>{{ project.title }}</h1>
       <h5 class="grey-text">{{ project.tagline }}</h5>
-      <p class="grey-text text-darken-3">Start Date: {{ project.start_date }}</p>
+      <p class="grey-text text-darken-2">Start Date: {{ project.start_date }}</p>
+      <p>Sample Site: www.figureout.com</p>
+      <p>GitHub URL: </p>
       <div class="divider"></div>
     </div>
     <div class="col l3"></div>
@@ -32,6 +34,7 @@
 
 
   <div class="row">
+    <div class="col l3"></div>
     <div class="col m12 l6">
       <div style="margin-top: 20px;" id="stack">
         <div class="card-panel blue-grey lighten-3">
@@ -40,32 +43,46 @@
         <p>{{ project.stack | markdown | safe }}</p>
       </div>
     </div>
+    <div class="col l3"></div>
+  </div>
+
+  <div class="row">
+    <div class="col l3"></div>
     <div class="col m12 l6">
       <div style="margin-top: 20px;" id="stack">
-        <div class="card-panel blue-grey lighten-2">
+        <div class="card-panel blue-grey lighten-3">
           <h3 class="center white-text">Project Description</h2>
         </div>
         <p>{{ project.description | markdown | safe }}</p>
       </div>
     </div>
+    <div class="col l3"></div>
   </div>
+
   <div class="row">
+    <div class="col l3"></div>
     <div class="col m12 l6">
       <div style="margin-top: 20px;" id="stack">
-        <div class="card-panel blue-grey lighten-1">
+        <div class="card-panel blue-grey lighten-3">
           <h3 class="center white-text">Additional Notes</h2>
         </div>
         <p>{{ project.additional_notes | markdown | safe }}</p>
       </div>
     </div>
+    <div class="col l3"></div>
+  </div>
+
+  <div class="row">
+    <div class="col l3"></div>
     <div class="col m12 l6">
       <div style="margin-top: 20px;" id="stack">
-        <div class="card-panel blue-grey">
+        <div class="card-panel blue-grey lighten-3">
           <h3 class="center white-text">Going Forward</h2>
         </div>
         <p>{{ project.wish_list | markdown | safe }}</p>
       </div>
     </div>
+    <div class="col l3"></div>
   </div>
 </div>
 
